@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CAT
+  - HOUSE
+  - TREE
+  - CAT1
+  - CAT2
+  - CAT3
+  - REWARD
   layers:
   - Default
   - TransparentFX

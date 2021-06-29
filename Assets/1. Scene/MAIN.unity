@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.47884, g: 0.8001845, b: 0.90072787, a: 1}
+  m_IndirectSpecularColor: {r: 0.191991, g: 0.5946723, b: 0.7773275, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 97fea426342179749aab37da39b32a84, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -390,8 +390,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: 124}
-  m_SizeDelta: {x: 200, y: 120}
+  m_AnchoredPosition: {x: 0.000019073, y: 112}
+  m_SizeDelta: {x: 157.5309, y: 102.5127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417856139
 MonoBehaviour:
@@ -470,7 +470,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
@@ -978,7 +978,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0f156fa1d33d6c444965b40c9313d8cd, type: 3}
-    m_FontSize: 75
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -990,7 +990,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\uADC0\uC5EC\uC6B4 \uB3D9\uB124 \uACE0\uC591\uC774\uC5D0\uAC8C \uC870\uACF5\uC744
-    \uB4DC\uB9AC\uC790!"
+    \uD558\uC790!"
 --- !u!222 &902525338
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1178,8 +1178,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
   m_Text: "\uBC29\uD5A5\uD0A4(\uC774\uB3D9)\uC640 \uC2A4\uD398\uC774\uC2A4\uBC14(\uC810\uD504)\uB97C
-    \uC0AC\uC6A9\uD558\uC5EC\n\uB3D9\uB124\uB97C \uB3CC\uC544\uB2E4\uB2C8\uBA70 \uACE0\uC591\uC774\uB97C
-    \uB9CC\uB098 \uC870\uACF5\uC744 \uB4DC\uB824 \uBCF4\uC544\uC694!"
+    \uC0AC\uC6A9\uD574\n\uB3D9\uB124\uB97C \uB3CC\uC544\uB2E4\uB2C8\uBA70 \uACE0\uC591\uC774\uB97C
+    \uB9CC\uB098 \uC870\uACF5\uC744 \uB4DC\uB824 \uBCF4\uC544\uC694"
 --- !u!222 &1131325405
 CanvasRenderer:
   m_ObjectHideFlags: 0
