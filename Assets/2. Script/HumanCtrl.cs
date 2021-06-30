@@ -14,7 +14,10 @@ public class HumanCtrl : MonoBehaviour
     public GameObject CanvusCat3;
     public GameObject CanvusTiger;
 
-    public GameObject EndingCanvus;
+    public AudioSource Meow1;
+    public AudioSource Meow2;
+    public AudioSource Meow3;
+    public AudioSource Tiger;
 
     // Start is called before the first frame update
     void Start()
@@ -59,21 +62,25 @@ public class HumanCtrl : MonoBehaviour
         if(collision.transform.tag == "CAT1")
         {
             CanvusCat1.SetActive(true);
+            Meow1.Play();
         }
 
         if (collision.transform.tag == "CAT2")
         {
             CanvusCat2.SetActive(true);
+            Meow2.Play();
         }
 
         if (collision.transform.tag == "CAT3")
         {
             CanvusCat3.SetActive(true);
+            Meow3.Play();
         }
 
         if (collision.transform.tag == "CAT")
         {
             CanvusTiger.SetActive(true);
+            Tiger.Play();
         }
     }
 
